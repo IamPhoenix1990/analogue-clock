@@ -20,5 +20,40 @@
     position:absolute;
     bottom:300px;
     left:270px;
+    transform: rotate(90deg);
+    transform-origin: bottom center;
 
+}
+
+.minuteHand{
+    height:200px;
+    width:40px;
+    background:black;
+    position:absolute;
+    bottom:300px;
+    left:280px;
+    transform: rotate(45deg);
+    transform-origin: bottom center;
+
+}
+
+.secondHand{
+    height:250px;
+    width:10px;
+    background:red;
+    position:absolute;
+    bottom:300px;
+    left:295px;
+    transform: rotate(20deg);
+    transform-origin: bottom center;
+}
+
+.tidy{
+    height:80px;
+    width:80px;
+    position:absolute;
+    left:260px;
+    bottom:260px;
+    background:black;
+    border-radius:40px;
 }
